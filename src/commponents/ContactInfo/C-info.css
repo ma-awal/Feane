@@ -1,0 +1,15 @@
+.C-info {
+  background: var(--gold-1);
+}
+
+.C-info .icons a {
+  border: 2px solid var(--white-2);
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  padding: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white-1) !important;
+}

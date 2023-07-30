@@ -1,0 +1,25 @@
+.Categories h2 {
+  color: var(--dark-1);
+}
+.Categories .box {
+  gap: 20px;
+}
+
+.Categories .box .btn {
+  font-size: var(--font-link);
+  font-weight: var(--fw-semi);
+}
+.Categories .box .btn:not(.active) {
+  border: 2px solid var(--gold-1) !important;
+  color: var(--gold-1) !important;
+  transition: var(--transition);
+}
+.Categories .box .btn.active {
+  background: var(--gold-1);
+  color: var(--white-1);
+  border: 2px solid var(--gold-1) !important;
+}
+.Categories .box .btn:hover:not(.active) {
+  background: var(--tomato-4) !important;
+  color: var(--white-1);
+}

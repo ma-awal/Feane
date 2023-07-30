@@ -1,0 +1,9 @@
+.H-about {
+}
+
+.H-about .text h4 {
+  color: var(--dark-1);
+}
+.H-about .text button {
+  background: var(--dark-1);
+}

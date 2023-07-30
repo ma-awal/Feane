@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  outline: none;
+  border: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Cabin', sans-serif;
+  overflow-x: hidden;
+  font-size: 15px;
+  background: var(--white-2);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --white-1: #ffffff;
+  --white-2: #f8f8f8;
+  --black-1: #262626;
+  --black-2: #222222;
+  /* --blue-1: #0d1028; */
+  --blue-1: #262626;
+  --dark-1: #666666;
+  --dark-2: #686674;
+  --dark-3: #56566a;
+  --gold-1: #978667;
+
+  --font-base: 15px;
+  --font-link: 15px;
+  --font-20: 20px;
+  --font-50: 50px;
+  --fw-base: 400;
+  --fw-md: 500;
+  --fw-semi: 600;
+  --fw-bold: 700;
+  --transition: 0.3s linear;
+}
+p {
+  font-size: var(--font-base) !important;
+  line-height: 28px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  color: var(--black-2) !important;
+  font-size: 42px !important;
+  font-weight: var(--fw-semi) !important;
+}
+h3 {
+  color: var(--black-2) !important;
+  font-weight: var(--fw-semi) !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h4 {
+  color: var(--black-2) !important;
+  font-weight: var(--fw-semi) !important;
 }
 
-.App-link {
-  color: #61dafb;
+h5 {
+  color: var(--black-2) !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}
+h6 {
+  color: var(--black-2) !important;
+  font-weight: 600 !important;
+}
+img {
+  object-fit: cover !important;
+  max-width: 100%;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.common {
+  background: var(--gold-1) !important;
+  color: var(--white-1) !important;
+}
+.common a {
+  text-decoration: none;
+  color: var(--white-1) !important;
 }

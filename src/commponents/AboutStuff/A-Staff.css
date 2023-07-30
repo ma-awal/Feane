@@ -1,0 +1,11 @@
+.A-staff {
+  background: url('../../assets/pattern_menu.jpg') no-repeat center/cover;
+}
+
+.A-staff .single-slide {
+  background: var(--black-1);
+  max-width: 97%;
+}
+
+.A-staff .single-slide .info {
+}
