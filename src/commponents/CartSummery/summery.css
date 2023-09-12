@@ -1,0 +1,6 @@
+.box h3{
+    color:var(--dark-2)!important;
+    background-color: var(--white-1);
+    border-bottom: 0!important
+
+}
