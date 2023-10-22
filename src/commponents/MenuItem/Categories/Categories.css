@@ -1,25 +1,18 @@
-.Categories h2 {
-  color: var(--dark-1);
-}
-.Categories .box {
+.Categories .single-card {
   gap: 20px;
 }
 
-.Categories .box .btn {
+.Categories .single-card .btn {
   font-size: var(--font-link);
   font-weight: var(--fw-semi);
 }
-.Categories .box .btn:not(.active) {
-  border: 2px solid var(--gold-1) !important;
+.Categories .single-card .btn:not(.active) {
   color: var(--gold-1) !important;
   transition: var(--transition);
+  background: transparent;
 }
-.Categories .box .btn.active {
-  background: var(--gold-1);
+.Categories .single-card .btn.active {
+  background: var(--dark-1);
   color: var(--white-1);
-  border: 2px solid var(--gold-1) !important;
-}
-.Categories .box .btn:hover:not(.active) {
-  background: var(--tomato-4) !important;
-  color: var(--white-1);
+  border: none;
 }

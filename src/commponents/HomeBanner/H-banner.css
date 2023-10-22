@@ -1,18 +1,14 @@
 .H-banner {
-  background: url('../../assets/slide_1.jpg') no-repeat center/cover;
+  background: url('../../assets/hero-bg.jpg') no-repeat center/cover;
   height: 70vh;
   display: flex;
   align-items: center;
 }
 
-.H-banner h2,
-.H-banner h4 {
+.H-banner h2 {
   color: var(--white-1) !important;
 }
 
-.H-banner button {
-  color: var(--white-1);
-}
 .H-banner button a {
   color: var(--white-1) !important;
   text-decoration: none;

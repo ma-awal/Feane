@@ -1,19 +1,26 @@
 import React from 'react';
 import './footer.css';
-import FooterLink from './FooterLink';
-import FooterData from '../../data/FooterData';
+import { HiMail } from 'react-icons/hi';
+import { BiSolidPhone } from 'react-icons/bi';
+import { BiCurrentLocation } from 'react-icons/bi';
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
-import logo from '../../assets/logo.svg';
+
 const Footer = () => {
   return (
-    <section className="footer py-3 py-md-4 py-lg-5  ">
-      <div className="container py-3 py-md-4 py-lg-5  ">
-        <div className="row justify-content-between gy-3 gy-md-4 gy-lg-0">
-          <div className="col-12 col-md-6 col-lg-3">
-            <div className="single-box">
-              <img src={logo} className="img-fluid mb-2" alt="img" />
-              <p>4035 Heavens, Los Angeles, California</p>
-              <div className="social-links  mt-2  ">
+    <section className="footer py-3 py-md-4 py-lg-5 mt-5 ">
+      <div className="container    ">
+        <div className="row d-flex justify-content-center justify-content-md-between gy-3 gy-md-4 gy-lg-0 pb-3">
+          <div className="col-12 col-md-12 col-lg-4">
+            <div className="single-box  text-center text-md-start ">
+              <h2 className="fw-semibold">
+                <i className="text-warning ">Feane</i>
+              </h2>
+              <p className="lh-base">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                <br />
+                Architecto commodi similique nobis aspernatur ab voluptatibus.
+              </p>
+              <div className="social-links d-flex justify-content-center justify-content-md-start  mt-2 text-center text-md-start gap-2  ">
                 <a
                   href="https://www.facebook.com"
                   target="_blank"
@@ -35,33 +42,30 @@ const Footer = () => {
                 >
                   <FaInstagram />
                 </a>
-                <a
-                  href="https://www.linkedin.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaLinkedin />
-                </a>
               </div>
             </div>
           </div>
-          <FooterLink FooterData={FooterData} />
-          <div className="col-12 col-md-6 col-lg-3">
-            <div className=" links single-box">
-              <h4 className=" position-relative mb-0">Keep In Touch</h4>
-
-              <div className="input-form ">
-                <input
-                  type="email"
-                  className="email"
-                  id="email"
-                  name="email"
-                  placeholder="Enter your email"
-                />
-                <button type="submit" className="btn rounded-0">
-                  Subscribe
-                </button>
-              </div>
+          <div className="col-12 col-md-6 col-lg-4">
+            <div className="  single-box text-center text-md-start">
+              <h4 className=" position-relative  "> Contact Us</h4>
+              <ul className="list-group text-white fs-6">
+                <li>
+                  <HiMail /> maeaolld@gmail.com
+                </li>
+                <li>
+                  <BiSolidPhone /> ++0123404303
+                </li>
+                <li>
+                  <BiCurrentLocation /> Mirpur 10,Dhaka
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="col-12 col-md-6 col-lg-4">
+            <div className="   single-box text-white text-center text-md-start">
+              <h4 className="  ">Open Hours</h4>
+              <p className="p-0 m-0  ">EveryDay</p>
+              <p>10AM -8PM</p>
             </div>
           </div>
         </div>

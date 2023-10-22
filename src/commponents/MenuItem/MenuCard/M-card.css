@@ -1,48 +1,28 @@
-.CourseCard .single-card {
-  transition: var(--transition);
-}
-.CourseCard .single-card a img {
-  transition: var(--transition);
-}
-.CourseCard .single-card:hover a img {
-  transform: scale(1.1);
-}
-.CourseCard .image {
-  position: relative;
-}
-.CourseCard .image button {
-  background: var(--gold-1);
-  content: '';
-  position: absolute;
-  bottom: 3%;
-  width: 50%;
-  height: auto;
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 0;
-  transition: var(--transition);
+.card-box {
+  border-radius: 13px;
+  background: var(--dark-1);
 }
 
-.CourseCard .image button a {
-  transform: scale(1.1);
-  color: var(--white-1);
+.card-box .image {
+  background: var(--white-2);
+  border-bottom-left-radius: 32px;
+}
+.card-box .image img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
 }
 
-.CourseCard .single-card:hover .image button {
-  opacity: 1;
+.icon span:nth-of-type(2) {
+  width: 40px;
+  height: 40px;
+
+  padding: 0.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.CourseCard .card-info h5 {
-  color: var(--dark-1) !important;
-}
-
-.CourseCard .icons span {
-  font-size: 19px !important;
-  font-weight: 600;
-  color: var(--gold-1) !important;
-}
-.CourseCard .icons span:nth-of-type(2) {
-  text-decoration: line-through;
-  font-size: 17px !important;
-  color: var(--dark-1) !important;
+.card-info {
+  background: var(--dark-1);
 }

@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
   outline: none;
   border: none;
 }
@@ -12,23 +11,15 @@ html {
 body {
   font-family: 'Cabin', sans-serif;
   overflow-x: hidden;
-  font-size: 15px;
+  font-size: 14px;
   background: var(--white-2);
 }
 
 :root {
   --white-1: #ffffff;
-  --white-2: #f8f8f8;
-  --black-1: #262626;
-  --black-2: #222222;
-  /* --blue-1: #0d1028; */
-  --blue-1: #262626;
-  --dark-1: #666666;
-  --dark-2: #686674;
-  --dark-3: #56566a;
-  --gold-1: #978667;
-
-  --font-base: 15px;
+  --white-2: #edeaea;
+  --dark-1: #222831;
+  --font-base: 14px;
   --font-link: 15px;
   --font-20: 20px;
   --font-50: 50px;
@@ -41,43 +32,4 @@ body {
 p {
   font-size: var(--font-base) !important;
   line-height: 28px !important;
-}
-
-h2 {
-  color: var(--black-2) !important;
-  font-size: 42px !important;
-  font-weight: var(--fw-semi) !important;
-}
-h3 {
-  color: var(--black-2) !important;
-  font-weight: var(--fw-semi) !important;
-}
-
-h4 {
-  color: var(--black-2) !important;
-  font-weight: var(--fw-semi) !important;
-}
-
-h5 {
-  color: var(--black-2) !important;
-  font-size: 18px !important;
-  font-weight: 600 !important;
-}
-h6 {
-  color: var(--black-2) !important;
-  font-weight: 600 !important;
-}
-img {
-  object-fit: cover !important;
-  max-width: 100%;
-  margin: auto;
-}
-
-.common {
-  background: var(--gold-1) !important;
-  color: var(--white-1) !important;
-}
-.common a {
-  text-decoration: none;
-  color: var(--white-1) !important;
 }

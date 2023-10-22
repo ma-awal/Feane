@@ -5,7 +5,7 @@ import './Menu.css';
 const CourseMenu = () => {
   return (
     <section className="CourseMenu py-3 py-lg-4 py-lg-5 ">
-      <div className="container py-3 py-lg-4 py-lg-5">
+      <div className="container  ">
         <Categories />
         <MenuCard />
       </div>

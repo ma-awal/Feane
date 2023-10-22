@@ -6,13 +6,13 @@ import { NavProvider } from '../context/NavContext';
 
 const Layout = () => {
   return (
-    <>
+    <div className="d-flex flex-column min-vh-100 justify-content-between">
       <NavProvider>
         <Header />
       </NavProvider>
       <Outlet />
       <Footer />
-    </>
+    </div>
   );
 };
 

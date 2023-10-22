@@ -1,0 +1,27 @@
+.Order-form form {
+  line-height: 3rem;
+}
+.Order-form .heading span {
+  background: var(--tomato-4);
+  height: 3px;
+  flex: 0.9;
+}
+
+.Order-form form .input_div input {
+  background: var(--white-2);
+  padding: 0.6rem 0.6rem;
+  color: var(--dark-1);
+  font-size: var(--font-base);
+  font-weight: var(--fw-semi);
+  border: 2px solid #ddd;
+  border-radius: 0 !important;
+}
+.Order-form .form-select {
+  background: var(--white-2);
+  padding: 0.6rem 0.6rem;
+  color: var(--dark-1);
+  font-size: var(--font-base);
+  font-weight: var(--fw-semi);
+  border: 2px solid #ddd;
+  border-radius: 0 !important;
+}

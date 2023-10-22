@@ -1,17 +1,22 @@
 import { v4 as uuidv4 } from 'uuid';
-import m1 from '../assets/1.jpg';
-import m2 from '../assets/2.jpg';
-import m3 from '../assets/3.jpg';
-import m4 from '../assets/4.jpg';
-import m5 from '../assets/5.jpg';
-import m6 from '../assets/6.jpg';
+import m1 from '../assets/f1.png';
+import m2 from '../assets/f2.png';
+import m3 from '../assets/f3.png';
+import m4 from '../assets/f4.png';
+import m5 from '../assets/f5.png';
+import m6 from '../assets/f6.png';
+import m7 from '../assets/f7.png';
+import m8 from '../assets/f8.png';
+import m9 from '../assets/f9.png';
 
 const MenuData = [
   {
     id: uuidv4(),
     rating: 5,
     reviews: 9,
-    title: ' Bras Pork Chops',
+    heading: 'Delicious Pizaa',
+    title:
+      ' Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque ',
     img: m1,
     category: 'Break Fast',
     price: 54,
@@ -21,7 +26,9 @@ const MenuData = [
     id: uuidv4(),
     rating: 4.5,
     reviews: 3,
-    title: ' Bras Pork Chops',
+    heading: 'Delicious Pizaa',
+    title:
+      '  Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque ',
     img: m6,
     category: 'Break Fast',
     price: 54,
@@ -31,7 +38,9 @@ const MenuData = [
     id: uuidv4(),
     rating: 5,
     reviews: 23,
-    title: ' Bras Pork Chops',
+    heading: 'Delicious Pizaa',
+    title:
+      '  Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque ',
     img: m2,
     category: 'Lunch',
     price: 54,
@@ -41,7 +50,9 @@ const MenuData = [
     id: uuidv4(),
     rating: 4,
     reviews: 5,
-    title: ' Bras Pork Chops',
+    heading: 'Delicious Pizaa',
+    title:
+      '  Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque ',
     img: m5,
     category: 'Lunch',
     price: 54,
@@ -51,7 +62,9 @@ const MenuData = [
     id: uuidv4(),
     rating: 4.5,
     reviews: 7,
-    title: ' Bras Pork Chops',
+    heading: 'Delicious Pizaa',
+    title:
+      '  Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque ',
     img: m3,
     category: 'Dinner',
     price: 54,
@@ -61,8 +74,46 @@ const MenuData = [
     id: uuidv4(),
     rating: 4,
     reviews: 2,
-    title: ' Bras Pork Chops',
+    heading: 'Delicious Pizaa',
+    title:
+      '  Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque ',
     img: m4,
+    category: 'Dinner',
+    price: 54,
+    oldPrice: 56,
+  },
+  {
+    id: uuidv4(),
+    rating: 4,
+    reviews: 2,
+    heading: 'Delicious Pizaa',
+    title:
+      '  Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque ',
+    img: m9,
+    category: 'Dinner',
+    price: 54,
+    oldPrice: 56,
+  },
+  {
+    id: uuidv4(),
+    rating: 4,
+    reviews: 2,
+    heading: 'Delicious Pizaa',
+    title:
+      '  Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque ',
+    img: m7,
+    category: 'Dinner',
+    price: 54,
+    oldPrice: 56,
+  },
+  {
+    id: uuidv4(),
+    rating: 4,
+    reviews: 2,
+    heading: 'Delicious Pizaa',
+    title:
+      '  Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque ',
+    img: m8,
     category: 'Dinner',
     price: 54,
     oldPrice: 56,

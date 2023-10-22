@@ -1,0 +1,13 @@
+.Client .single-slide {
+  background: var(--dark-1);
+  margin: 0px 10px;
+}
+
+.Client .single-slide img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+.Client .single-slide .comment {
+  border-left: 1px solid var(--white-1) !important;
+}

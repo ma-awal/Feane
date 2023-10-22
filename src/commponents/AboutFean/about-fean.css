@@ -1,0 +1,24 @@
+.About-fean {
+  background: var(--dark-1);
+}
+.About-fean .image {
+  flex: 0.5;
+}
+.About-fean .image img {
+  width: 70%;
+  object-fit: cover;
+}
+.About-fean .text {
+  flex: 0.5;
+}
+
+@media (max-width: 768px) {
+  .About-fean .text {
+    flex: 1;
+    order: 1;
+  }
+  .About-fean .image {
+    flex: 1;
+    order: 2;
+  }
+}

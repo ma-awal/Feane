@@ -44,7 +44,7 @@ const AboutStuff = ({ data }) => {
     <section className=" A-staff py-3 py-md-4 py-lg-5">
       <div className="container py-3 py-md-4 py-lg-5">
         <h2 className="  text-center mb-3 mb-md-4 text-capitalize  ">
-          Our Chefs and staff
+          <i className="fw-semibold"> Our Chefs and staff</i>
         </h2>
         <div className="row justify-content-center">
           <Slider className="py-4" {...settings}>

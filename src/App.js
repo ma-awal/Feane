@@ -6,10 +6,11 @@ import Loader from './commponents/Loader/Loader';
 import Error from './pages/Error/Error';
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
-import Example from './pages/Analysis/Example';
-import Contact from './pages/Contact/Contact';
-import Blog from './pages/Blog/Blog';
-import Shop from './pages/Shop/Shop';
+
+import BookTable from './pages/BookTable/BookTable';
+import Menu from './pages/Menu/Menu';
+
+import Signin from './commponents/Signin/Signin';
 const App = () => {
   const isLoading = UseLoading();
 
@@ -21,12 +22,11 @@ const App = () => {
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/shop" element={<Shop />} />
-        <Route path="/blog" element={<Blog />} />
+        <Route path="/menu" element={<Menu />} />
+        <Route path="/table" element={<BookTable />} />
+        <Route path="/signin" element={<Signin />} />
       </Route>
       <Route path="/*" element={<Error />} />
-      <Route path="/example" element={<Example />} />
     </Routes>
   );
 };

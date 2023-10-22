@@ -3,15 +3,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40vh;
+  height: 20vh;
   max-height: 100%;
-  /* background: url('../../assets/hero_general.jpg') no-repeat center/cover; */
+  background: var(--dark-1);
 }
 
 .All .box h2,
 .All .box h4 {
-  color: var(--white-1) !important;
-  font-weight: bold;
+  font-style: italic;
 }
 .All .box-link,
 .box-link a {
@@ -21,5 +20,5 @@
 
 .box-link a.active {
   color: var(--white-1);
-  font-weight: var(--fw-semi);
+  font-weight: var(--fw-semibold);
 }

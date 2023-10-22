@@ -1,0 +1,9 @@
+.Advertise img {
+  max-width: 150px;
+  overflow: hidden;
+}
+
+.box {
+  background: var(--dark-1);
+  color: var(--white-1);
+}
